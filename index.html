@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link href="./style.css" rel="stylesheet">
+  <title>Interactive rating component</title>
+</head>
+<body>
+  <div class="before">
+    <img src="./images/icon-star.svg" alt="" class="icon">
+    <h1 class="heading">
+        How did we do?
+    </h1>
+    <p class="sub-heading">Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+    <section class="rating-number">
+        <ul>
+            <li class="rating-number-single" value="1"><a href="#">1</a></li>
+            <li class="rating-number-single" value="2"><a href="#">2</a></li>
+            <li class="rating-number-single" value="3"><a href="#">3</a></li>
+            <li class="rating-number-single" value="4"><a href="#">4</a></li>
+            <li class="rating-number-single" value="5"><a href="#">5</a></li>
+        </ul>
+    </section>
+    <button class="btn deactivated">SUBMIT</button>
+  </div>
+
+  <div class="after hide">
+    <img src="./images/illustration-thank-you.svg" alt="" class="illustration">
+    <p class="pre-heading">You selected <a class="result">0</a> out of 5</p>
+    <h1 class="heading">
+        Thank you!
+    </h1>
+    <p class="sub-heading">We apprecciate you taking time to give a rating. If you ever need more support, don't hesitate to get in touch</p>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

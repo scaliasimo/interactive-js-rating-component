@@ -1,0 +1,160 @@
+* {
+    font-family: 'Noto Sans', sans-serif;;
+}
+
+h1, p {
+    margin: 10px auto;
+    font-family: 'Noto Sans', sans-serif;;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+ul {
+    margin: 30px auto;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+
+.pre-heading {
+    margin-top: 20px;
+    text-align: center;
+    background: #30778e;
+    padding: 10px;
+    border-radius: 50px;
+    width: 80%;
+    color: #fc7615;
+    font-weight: 600;
+}
+
+h1, button, p, li {
+    color: white;
+}
+
+h1 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 16px;
+}
+
+li { 
+display:inline; 
+font-size: 18px;
+cursor: pointer;
+background: #30778e;
+padding: 10px 19px;
+border-radius: 50px;
+} 
+
+li:hover { 
+    background: #507d8c;
+} 
+
+li.active { 
+    background: #fc7615;
+} 
+
+button {
+    background: #fc7615;
+    font-size: 16px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px 30px;
+    border-radius: 50px;
+    width: 100%;
+    border: 0px;
+    cursor: pointer;
+}
+
+.deactivated {
+    background: #30778e;
+    cursor: not-allowed;
+}
+
+.before {
+    background: #1b6c86;
+    margin: auto;
+    max-width: 400px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 30px 30px;
+    border-radius: 30px;
+  
+}
+
+.after {
+    background: #1b6c86;
+    margin: auto;
+    max-width: 400px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 30px 30px;
+    border-radius: 30px;
+  
+}
+
+.after h1, p {
+    text-align: center;
+}
+
+.after p {
+    text-align: center;
+}
+
+.before h1 { 
+    text-align: left;
+}
+
+.before p {
+    text-align: left;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+.icon {
+    background: #30778e;
+    padding: 10px;
+    border-radius: 50px;
+
+}
+
+img.illustration {
+    margin: 0 auto;
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+    .before {
+        max-width: 260px;
+        width: 100%;
+    }
+
+    .after {
+        max-width: 260px;
+        width: 100%;
+    }
+
+    li {
+        font-size: 16px;
+        cursor: pointer;
+        padding: 10px 17px;
+        border-radius: 50px;
+    }
+  }
